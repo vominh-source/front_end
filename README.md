@@ -11,7 +11,13 @@ In the project directory, you can run:
 ```bash
 npm install
 ```
-
+### Set up file .env
+Create file .env in root folder.
+Content of file .env:
+```bash
+PORT=5173
+REACT_APP_API_BASE_URL=http://localhost:3000/api
+```
 ### Start the development server
 
 ```bash
